@@ -1,0 +1,7846 @@
+[
+  {
+    "uid": 1,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 0.0,
+            "y": 2.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 2,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": -2.6,
+            "y": 2.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 3,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 2.6,
+            "y": 2.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 4,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": -4.5,
+            "y": 2.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 5,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 3.75,
+            "y": 2.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 6,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 4.0,
+            "y": 5.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 6.5
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.25,
+            "y": 6.5
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 7,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 4.0,
+            "y": 6.25
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.25
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 245
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\signal-block.png",
+              "width": 203,
+              "height": 287
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 246
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 247
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.25
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 248
+        }
+      }
+    ]
+  },
+  {
+    "uid": 8,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 3.0,
+            "y": 4.75
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 249
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign-block.png",
+              "width": 341,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 250
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 251
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 252
+        }
+      }
+    ]
+  },
+  {
+    "uid": 9,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 4.0,
+            "y": 7.75
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 253
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign2-block.png",
+              "width": 341,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 254
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 255
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 256
+        }
+      }
+    ]
+  },
+  {
+    "uid": 10,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": -4.5,
+            "y": 3.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 277
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 278
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 279
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 280
+        }
+      }
+    ]
+  },
+  {
+    "uid": 11,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": -4.5,
+            "y": 5.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 277
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 278
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 279
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 280
+        }
+      }
+    ]
+  },
+  {
+    "uid": 12,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": -4.5,
+            "y": 6.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 277
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 278
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 279
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 280
+        }
+      }
+    ]
+  },
+  {
+    "uid": 13,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": -4.5,
+            "y": 8.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 277
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 278
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 279
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 280
+        }
+      }
+    ]
+  },
+  {
+    "uid": 14,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": -4.5,
+            "y": 9.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 277
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 278
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 279
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 280
+        }
+      }
+    ]
+  },
+  {
+    "uid": 15,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": -4.5,
+            "y": 11.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 277
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 278
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 279
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 280
+        }
+      }
+    ]
+  },
+  {
+    "uid": 16,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": -4.5,
+            "y": 12.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 277
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 278
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 279
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 280
+        }
+      }
+    ]
+  },
+  {
+    "uid": 17,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 13.0,
+            "y": 0.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 0.8
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 18,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 13.0,
+            "y": -2.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 0.8
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 19,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 13.0,
+            "y": -4.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 0.8
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 20,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 5.5,
+            "y": 3.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 21,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 16.0,
+            "y": 6.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 22,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 22.85,
+            "y": 7.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 45.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 23,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 19.75,
+            "y": 6.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 24,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 24.75,
+            "y": 8.9
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 45.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 25,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 28.25,
+            "y": 12.4
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 45.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 26,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 26.35,
+            "y": 10.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 45.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 27,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 31.75,
+            "y": 15.9
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 45.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 28,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 29.85,
+            "y": 14.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 45.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 29,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 35.25,
+            "y": 19.4
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 45.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 30,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 33.35,
+            "y": 17.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 45.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 31,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 43.25,
+            "y": 20.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 32,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 12.4,
+            "y": 5.175
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 4.0
+          },
+          "zIndex": 0,
+          "rotation": -36.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.25,
+            "y": 4.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 33,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 41.5,
+            "y": 24.75
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.5,
+            "y": 2.5
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 333
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign-collding-block.png",
+              "width": 341,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 334
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 335
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.5,
+            "y": 2.5
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 336
+        }
+      }
+    ]
+  },
+  {
+    "uid": 34,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 48.0,
+            "y": 27.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 35,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 48.0,
+            "y": 24.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 36,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 48.0,
+            "y": 22.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 37,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 47.0,
+            "y": 20.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 38,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 44.75,
+            "y": 24.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.5
+          },
+          "zIndex": 0,
+          "rotation": -90.0,
+          "uid": 245
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\signal-block.png",
+              "width": 203,
+              "height": 287
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 246
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 247
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.5
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 248
+        }
+      }
+    ]
+  },
+  {
+    "uid": 39,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 48.0,
+            "y": 29.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 40,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 42.5,
+            "y": 27.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 2.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 2.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 41,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 41.0,
+            "y": 28.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 4.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 4.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 42,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 44.75,
+            "y": 31.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 4.0
+          },
+          "zIndex": 0,
+          "rotation": -80.5,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.25,
+            "y": 4.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 43,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 48.0,
+            "y": 37.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 44,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 48.0,
+            "y": 35.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 45,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 48.0,
+            "y": 32.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 46,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 48.0,
+            "y": 40.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 90.0,
+          "uid": 209
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\chain-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 210
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 211
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 212
+        }
+      }
+    ]
+  },
+  {
+    "uid": 47,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 47.0,
+            "y": 31.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 48,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 43.5,
+            "y": 32.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.75,
+            "y": 13.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 0.74509805
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 49,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 43.5,
+            "y": 34.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 4.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 245
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\signal-block.png",
+              "width": 203,
+              "height": 287
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 246
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 247
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 4.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 248
+        }
+      }
+    ]
+  },
+  {
+    "uid": 50,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 49.0,
+            "y": 41.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 51,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 52.75,
+            "y": 41.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 52,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 56.5,
+            "y": 41.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 53,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 60.25,
+            "y": 41.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 54,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 43.5,
+            "y": 37.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 3.0,
+            "y": 1.5
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 249
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign-block.png",
+              "width": 341,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 250
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 251
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 3.0,
+            "y": 1.5
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 252
+        }
+      }
+    ]
+  },
+  {
+    "uid": 55,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 44.0,
+            "y": 38.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 2.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 2.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 56,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 42.75,
+            "y": 38.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 45.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 57,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 44.5,
+            "y": 39.9
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": -95.9,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 58,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 39.5,
+            "y": 20.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 59,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 36.9,
+            "y": 20.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 60,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 10.0,
+            "y": 4.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 6.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 0.74509805
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 61,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 8.5,
+            "y": 3.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 309
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\barricade-block.png",
+              "width": 341,
+              "height": 85
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 310
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 311
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 5.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 312
+        }
+      }
+    ]
+  },
+  {
+    "uid": 62,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 9.0,
+            "y": 2.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 10.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 301
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 302
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 303
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 10.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 304
+        }
+      }
+    ]
+  },
+  {
+    "uid": 63,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 11.25,
+            "y": 3.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 64,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 357
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign-support-block.png",
+              "width": 116,
+              "height": 58
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 358
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 359
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 360
+        }
+      }
+    ]
+  },
+  {
+    "uid": 65,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 361
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign-support-block.png",
+              "width": 116,
+              "height": 58
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 362
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 363
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 364
+        }
+      }
+    ]
+  },
+  {
+    "uid": 66,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 365
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign-support-block.png",
+              "width": 116,
+              "height": 58
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 366
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 367
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 368
+        }
+      }
+    ]
+  },
+  {
+    "uid": 67,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 373
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign-support-block.png",
+              "width": 116,
+              "height": 58
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 374
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 375
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 376
+        }
+      }
+    ]
+  },
+  {
+    "uid": 68,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 397
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign-support-block.png",
+              "width": 116,
+              "height": 58
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 398
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 399
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 400
+        }
+      }
+    ]
+  },
+  {
+    "uid": 69,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 10.0,
+            "y": 5.5
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 401
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\sign-collding-block.png",
+              "width": 341,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 402
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 403
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 2.0,
+            "y": 1.0
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 404
+        }
+      }
+    ]
+  },
+  {
+    "uid": 70,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 10.0,
+            "y": 7.25
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.25
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 245
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\signal-block.png",
+              "width": 203,
+              "height": 287
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 246
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 247
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 1.0,
+            "y": 1.25
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 248
+        }
+      }
+    ]
+  },
+  {
+    "uid": 71,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 47.25,
+            "y": 33.4
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.25
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.5,
+            "y": 0.25
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 72,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 47.25,
+            "y": 35.4
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.25
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.5,
+            "y": 0.25
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 73,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 47.25,
+            "y": 37.4
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.25
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.5,
+            "y": 0.25
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  },
+  {
+    "uid": 74,
+    "serializable": true,
+    "isDead": false,
+    "name": "Block",
+    "components": [
+      {
+        "type": "jindow.Transform",
+        "properties": {
+          "position": {
+            "x": 47.25,
+            "y": 39.4
+          },
+          "offsetPivot": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.25
+          },
+          "zIndex": 0,
+          "rotation": 0.0,
+          "uid": 213
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets\\images\\black-block.png",
+              "width": 171,
+              "height": 171
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ],
+            "width": 0.0,
+            "height": 0.0
+          },
+          "uid": 214
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "bodyType": "Static",
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "density": 1.0,
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": true,
+          "uid": 215
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.5,
+            "y": 0.25
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 216
+        }
+      }
+    ]
+  }
+]
